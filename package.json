@@ -16,5 +16,5 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://ludovio.github.io/my-reads/",
+  "homepage": "https://ludovio.github.io/my-reads/"
 }
