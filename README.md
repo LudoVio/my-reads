@@ -1,9 +1,9 @@
-#My Reads
+# My Reads
 
 A React application that make use of React components to manage the user
 interface. Store your books and track what you're reading!
 
-#Installation
+# Installation
 
 Clone the repository:
 
