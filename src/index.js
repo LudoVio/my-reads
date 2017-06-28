@@ -5,7 +5,7 @@ import BooksApp from './components/BooksApp'
 import './css/index.css'
 
 ReactDOM.render(
-  <BrowserRouter>
+  <BrowserRouter basename="/my-reads">
     <BooksApp />
   </BrowserRouter>,
   document.getElementById('root')
