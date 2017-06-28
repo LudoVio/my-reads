@@ -18,5 +18,5 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://ludovio.github.io/my-reads/"
+  "homepage": "https://ludovio.github.io/my-reads"
 }
