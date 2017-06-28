@@ -3,6 +3,8 @@
 A React application that make use of React components to manage the user
 interface. Store your books and track what you're reading!
 
+Live demo: https://ludovio.github.io/my-reads/
+
 # Installation
 
 Clone the repository:
