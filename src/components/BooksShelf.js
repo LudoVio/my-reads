@@ -1,3 +1,12 @@
+/*
+# BooksShelf
+
+Represent a categorized list of books.
+
+Using BooksGrid.
+Used by BooksList.
+*/
+
 import React, { Component } from 'react'
 import BooksGrid from './BooksGrid'
 

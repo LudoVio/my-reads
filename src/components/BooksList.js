@@ -1,3 +1,12 @@
+/*
+# BooksList
+
+Represent the home screen.
+
+Using BooksShelf.
+Used by BooksApp.
+*/
+
 import React, { Component } from 'react'
 import BooksShelf from './BooksShelf'
 import { Link } from 'react-router-dom'

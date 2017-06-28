@@ -29,3 +29,17 @@ Build production ready static assets:
 ```sh
 npm run build
 ```
+
+
+# React Components Structure
+
+```sh
+BooksApp
+|-- BooksList
+|   |-- BooksShelf
+|      |-- BooksGrid
+|          |-- Book
+|-- BooksSearch
+    |-- BooksGrid
+        |-- Book
+```

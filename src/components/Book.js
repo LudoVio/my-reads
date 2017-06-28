@@ -1,10 +1,20 @@
+/*
+# Book
+
+Represent a single book, with an image, a title, an author and a dropdown to
+select the shelf they belong to.
+
+Used by BooksGrid.
+*/
+
 import React, { Component } from 'react'
 
 class Book extends Component {
   changeShelf = (event) => {
     const shelf = event.target.value;
-    if (this.props.onShelfChange)
-      this.props.onShelfChange(this.props.data.id, shelf)
+    if (this.props.onShelfChange) {
+      this.props.onShelfChange(this.props.data.id, shelf);
+    }
   }
 
   render () {
@@ -27,7 +37,7 @@ class Book extends Component {
           </div>
         </div>
         <div className="book-title">{data.title}</div>
-        <div className="book-authors">{data.authors[0]}</div>
+        <div className="book-authors">{data.authors && data.authors[0]}</div>
       </div>
     )
   }
